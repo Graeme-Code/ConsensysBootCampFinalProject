@@ -46,7 +46,9 @@ Why: Only because the contract needs to delegate key the role of resolving a bet
 
 Emergency Stop: 
 
-Another function the which uses the onlyOwner modifer is emergancy Stop, a function which will stop key functions via a modifier "stopInEmergency". 
+Another function the which uses the onlyOwner modifer is emergancy Stop, a function which will stop key functions via a modifier "stopInEmergency".
+
+Why: If there is a vunerability, the owner can mitigate losses by implementing the emergancy stop pattern. 
 
 **Thoughts on Design and next iterations**
 
@@ -55,7 +57,7 @@ Measures have been put in place to prevent this which is discussed in the avoidi
 Ideally two measures should be put in place. 
 
 1. Mappings should be used to faciliate updateBets, withdrawUnmatchedBets and redeem over loops. 
-2. The contract itself should jsut be repsonsible for match making and a different contract should be responsible for the resolving. 
+2. The contract itself should just be repsonsible for match making and a different contract should be responsible for the resolving. 
 
 
 
