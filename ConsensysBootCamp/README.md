@@ -33,13 +33,15 @@ Step two: Open the your folder with a VS code (my preference), start a new termi
 
 Step three: Run test, to make sure the project is runnning correct. 
 
-Step four: configure your wallet. In the truffle config file replace: const mnemonic = "secret" with mnemonic of your wallet. 
+Step four: Configure your wallet. In the truffle config file replace: const mnemonic = "secret" with mnemonic of your wallet. 
 
-Step five: Should be good to deploy on rinkeby, run: truffle migrate --network rinkeby
+Step five: Run "npm install @openzeppelin/contracts"
 
-Step six: Cd into client, then run npm run start to boot up a local front end. 
+Step six: Should be good to deploy on rinkeby, run: truffle migrate --network rinkeby
 
-Step seven: navigate to local host and make sure your metamask is on rinkeby network. Enjoy. 
+Step seven: Cd into client, then run npm run start to boot up a local front end. 
+
+Step eight: navigate to local host and make sure your metamask is on rinkeby network. Enjoy. 
 
 **Demo Video**
 
