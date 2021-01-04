@@ -33,7 +33,7 @@ Step two: Open the your folder with a VS code (my preference), start a new termi
 
 Step three: Run test, to make sure the project is runnning correct. 
 
-Step four: Configure your wallet. In the truffle config file replace: const mnemonic = "secret" with mnemonic of your wallet. 
+Step four: Configure truffle config file. In the truffle config file replace: const mnemonic = "secret" with mnemonic of your wallet and the infura link with your API key. 
 
 Step five: Run "npm install @openzeppelin/contracts"
 
